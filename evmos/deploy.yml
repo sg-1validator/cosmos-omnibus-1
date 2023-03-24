@@ -9,6 +9,7 @@ services:
       - CHAIN_JSON=https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/chain.json
       - P2P_POLKACHU=1
       - STATESYNC_POLKACHU=1
+      - P2P_PERSISTENT_PEERS=425b9969981dd38bbc53c0f3f01593fdca631667@65.108.131.174:13456
     expose:
       - port: 26657
         as: 80
