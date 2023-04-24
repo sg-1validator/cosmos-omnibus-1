@@ -35,7 +35,8 @@ profiles:
         memory:
           size: 32Gi
         storage:
-          size: 120Gi
+          - name: data
+            size: 120Gi
             attributes:
               persistent: true
               class: beta3
