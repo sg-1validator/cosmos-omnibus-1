@@ -24,7 +24,7 @@ services:
     params:
       storage:
         data:
-          mount: /root/.gaia
+          mount: /root/.evmos
 
 profiles:
   compute:
