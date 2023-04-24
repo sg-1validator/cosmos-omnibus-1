@@ -9,7 +9,7 @@ services:
       - CHAIN_JSON=https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/chain.json
       - P2P_POLKACHU=1
       - STATESYNC_POLKACHU=0 
-      - SNAPSHOT_URL=https://snapshots.polkachu.com/snapshots/evmos/evmos_12107111.tar.lz4
+      - SNAPSHOT_URL=https://snapshots.polkachu.com/snapshots/evmos/evmos_12820560.tar.lz4
       - SNAPSHOT_DATA_PATH=data
       - ADDRBOOK_URL=https://snapshots.polkachu.com/addrbook/evmos/addrbook.json
       - P2P_SEEDS=ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0@seeds.polkachu.com:13456
