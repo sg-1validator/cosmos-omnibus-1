@@ -21,10 +21,10 @@ services:
       - port: 26656
         to:
           - global: true
-    # params:
-    #   storage:
-    #     data:
-    #       mount: /root/.evmosd
+    params:
+      storage:
+        data:
+          mount: /root/.gaia
 
 profiles:
   compute:
